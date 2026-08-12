@@ -50,7 +50,7 @@ task copyWebpLibs(type: Copy) {
     }
 
     // Source directory of the built libraries
-    from "C:/libs/SDL_image/build-android/arm64-v8a-build/external/libwebp-build"
+    from "C:/libs/SDL3_image-devel-3.5.0-android/jniLibs/arm64-v8a"
     include "libwebp.so", "libwebpdemux.so", "libwebpmux.so"
     
     // Target directory
