@@ -1,7 +1,7 @@
 set(CMAKE_BUILD_TYPE "Release")
 
 cmake_minimum_required(VERSION 3.21)
-project(box3d-integration-in-y-bot-example-opengl-sdl3-cpp)
+project(box3d-ybot-opengl)
 
 # Fix for Windows path length limits with external libraries
 set(CMAKE_OBJECT_PATH_MAX 512)
